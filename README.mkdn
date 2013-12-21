@@ -1,9 +1,12 @@
 Welcome to ValidusAOSP
 ======================
+
 repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b vaosp
 ---------------------------------------------------------------------
-Then sync up with this command:
 
+
+Then sync up with this command:
+-----------------------------
 	repo sync
 -----------------
 
