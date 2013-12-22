@@ -518,6 +518,6 @@
   <project path="device/htc/m7ul" name="ValidusAOSP/device_htc_m7ul" remote="github" revision="vaosp" />
   <project path="device/htc/m7vzw" name="ValidusAOSP/device_htc_m7vzw" remote="github" revision="vaosp" />
   <project path="device/htc/msm8960-common" name="ValidusAOSP/device_htc_msm8960-common" remote="github" revision="vaosp" />
-  <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul,m7vzw" />
+  <project path="kernel/htc/m7" name="ValidusAOSP/android_kernel_htc_m7" remote="github" revision="github" />
   
 </manifest>
