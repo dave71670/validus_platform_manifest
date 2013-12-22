@@ -506,5 +506,14 @@
   <project name="SlimRoms/kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="kk4.4" />
   <project name="ValidusAOSP/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="vaosp" />
 
+  <!-- M7 -->
+  <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,m7vzw" />
+  <project path="device/htc/m7att" name="ValidusAOSP/device_htc_m7att" remote="hithub" revision="vaosp" />
+  <project path="device/htc/m7spr" name="ValidusAOSP/device_htc_m7spr" remote="github" revision="vaosp" />
+  <project path="device/htc/m7tmo" name="ValidusAOSP/device_htc_m7tmo" remote="github" revision="vaosp" />
+  <project path="device/htc/m7ul" name="ValidusAOSP/device_htc_m7ul" remote="github" revision="vaosp" />
+  <project path="device/htc/m7vzw" name="ValidusAOSP/device_htc_m7vzw" remote="github" revision="vaosp" />
+  <project path="device/htc/msm8960-common" name="AOKP/device_htc_msm8960-common" remote="aokp" revision="kitkat" groups="notdefault,device,m7,m7att,m7spr,m7tmo,m7ul,m7vzw,evita" />
+  <project path="kernel/htc/m7" name="AOKP/kernel_htc_m7" remote="aokp" revision="kitkat" groups="notdefault,kernel,m7,m7att,m7spr,m7tmo,m7ul,m7vzw" />
   
 </manifest>
