@@ -5,8 +5,9 @@
            fetch="https://android.googlesource.com/" />
            
   <remote name="aokp"
-           fetch="git://github.com/AOKP/" />
-           
+           fetch="https://github.com/"
+           review="gerrit.aokp.co" />
+  
   <remote name="tm"
            fetch="git://github.com/TheMuppets/" />
   
