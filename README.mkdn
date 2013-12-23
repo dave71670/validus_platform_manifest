@@ -1,13 +1,23 @@
 Welcome to ValidusAOSP
 ======================
 
-repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b vaosp
+repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b vaosp && repo sync -j**
+
+
+Build it
+========
+
+. build/envsetup.sh
+
+lunch
+
+choose your device
+ 
+make validus -j**
+
+** = your values 
 
 
 
-Then sync up with this command:
------------------------------
-	repo sync
------------------
 
 
