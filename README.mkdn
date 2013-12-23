@@ -8,9 +8,13 @@ Build it
 ========
 
 1.) . build/envsetup.sh
+-----------------------
 2.) lunch
+-----------------------
 3.) choose your device
+-----------------------
 4.) make validus -j**
+-----------------------
 
 NOTE: ** = your values 
 
