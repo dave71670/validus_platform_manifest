@@ -504,7 +504,7 @@
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="ValidusAOSP/device_samsung_d2-common" path="device/samsung/d2-common" remote="github" revision="vaosp" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
-  <project name="ValidusAOSP/kernel-d2" path="kernel/samsung/d2" remote="github" revision="vaosp" />
+  <project name="ktoonsez/KT747-JB" path="kernel/samsung/d2" remote="github" revision="aosp4.4" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   <project name="ValidusAOSP/android_device_samsung_d2vzw" path="device/samsung/d2vzw" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_samsung_d2tmo" path="device/samsung/d2tmo" remote="github" revision="vaosp" />
