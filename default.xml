@@ -447,9 +447,11 @@
   <project path="packages/apps/SlimFileManager" name="ValidusAOSP/packages_apps_SlimFileManager" remote="github" revision="gzr" />
 
   <!-- Koush Superuser -->
-  <project path="external/koush/Superuser" name="SlimRoms/Superuser" remote="github" revision="kk4.4" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
-
+  <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-11.0" />
+  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-11.0" />
+  
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="ValidusAOSP/packages_apps_DashClock" remote="github" revision="vaosp" />
 
