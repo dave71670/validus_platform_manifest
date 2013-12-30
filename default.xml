@@ -451,9 +451,6 @@
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
   <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-11.0" />
-  
-  <!-- DashClock widget -->
-  <project path="packages/apps/DashClock" name="ValidusAOSP/packages_apps_DashClock" remote="github" revision="vaosp" />
 
   <!-- Slim toolchain gcc and linaro -->
   <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
