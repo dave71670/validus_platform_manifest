@@ -1,7 +1,7 @@
 Welcome to ValidusAOSP
 ======================
 
-repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b vaosp && repo sync -j**
+repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b test && repo sync -j**
 
 Build it
 ========
