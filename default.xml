@@ -435,7 +435,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="vaosp" />
+  <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="test" />
 
   <!-- New Additions for slim -->
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="vaosp" />
