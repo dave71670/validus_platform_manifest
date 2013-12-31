@@ -7,7 +7,10 @@
   <remote name="aokp"
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
-  
+           
+  <remote name="du"
+           fetch="https://github.com/DirtyUnicorns-KitKat/" />
+
   <remote name="tm"
            fetch="git://github.com/TheMuppets/" />
   
@@ -473,6 +476,11 @@
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-11.0" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" />
 
+  <!-- ThemeChooser -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="vendor-tmobile-apps-ThemeChooser" remote="du" revision="du44" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="du" revision="du44" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="du" revision="du44" />
+  
   <!-- Stats -->
   <project path="packages/apps/DU-Stats" name="ValidusAOSP/packages_apps_DU-Stats" remote="github" revision="vaosp"/>
   
