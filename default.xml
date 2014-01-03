@@ -553,5 +553,5 @@
   <project name="ValidusAOSP/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/device_samsung_toro" path="device/samsung/toro" remote="github" revision="vaosp" />
   
-  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="github" revision="android-4.4" />
+  <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" />
 </manifest>
