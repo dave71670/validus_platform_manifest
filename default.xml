@@ -519,6 +519,7 @@
   <project name="ValidusAOSP/android_device_samsung_d2att" path="device/samsung/d2att" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_samsung_d2spr" path="device/samsung/d2spr" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_samsung_d2usc" path="device/samsung/d2usc" remote="github" revision="vaosp" />
+  <project name="ValidusAOSP/android_device_samsung_maguro" path="device/samsung/maguro" remote="github" revision="vaosp" />
   
   <!-- LGE -->
   <project name="SlimRoms/proprietary_vendor_qcom" path="vendor/qcom" remote="github" revision="kk4.4" />
