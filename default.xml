@@ -563,4 +563,8 @@
   
   <!-- Performance Control -->
   <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" />
+
+  <!-- Linaro for future Tinkering -->
+  <project path="prebuilts/gcc/linux-x86/arm/LK" name="LiquidSmooth/linaro-hammer" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/SM" name="LiquidSmooth/sabermod_rom_toolchain" remote="github" revision="4.9.0" />
 </manifest>
