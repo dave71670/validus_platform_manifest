@@ -480,7 +480,7 @@
   <!-- ThemeChooser 
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor-tmobile-apps-ThemeChooser" remote="du" revision="du44" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="du" revision="du44" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="du" revision="du44" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="du" revision="du44" /> -->
   
   <!-- Stats -->
   <project path="packages/apps/DU-Stats" name="ValidusAOSP/packages_apps_DU-Stats" remote="github" revision="vaosp"/>
