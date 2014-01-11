@@ -565,4 +565,7 @@
   <!-- Performance Control -->
   <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" />
 
+  <!-- Gravity Box -->
+  <project path="packages/apps/GravityBox" name="GravityBox/GravityBox" remote="github" revision="kitkat" />
+
 </manifest>
