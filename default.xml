@@ -565,9 +565,6 @@
   <project name="ValidusAOSP/android_device_asus_flo" path="device/asus/flo" remote="github" revision="vaosp" />
   
   <!-- Performance Control -->
-  <project path="packages/apps/PerformanceControl" name="omnirom/android_packages_apps_PerformanceControl" remote="github" revision="android-4.4" />
-
-  <!-- Gravity Box -->
-  <project path="packages/apps/GravityBox" name="GravityBox/GravityBox" remote="github" revision="kitkat" />
+  <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" />
 
 </manifest>
