@@ -537,7 +537,7 @@
   <project path="device/htc/m7att" name="ValidusAOSP/device_htc_m7att" remote="github" revision="vaosp" />
   <project path="device/htc/m7spr" name="ValidusAOSP/device_htc_m7spr" remote="github" revision="vaosp" />
   <project path="device/htc/m7tmo" name="ValidusAOSP/device_htc_m7tmo" remote="github" revision="vaosp" />
-  <project path="device/htc/m7" name="ValidusAOSP/device_htc_m7" remote="github" revision="vaosp" />
+  <project path="device/htc/m7" name="ValidusAOSP/android_device_htc_m7" remote="github" revision="vaosp" />
   <project path="device/htc/m7vzw" name="ValidusAOSP/device_htc_m7vzw" remote="github" revision="vaosp" />
   <project path="device/htc/msm8960-common" name="ValidusAOSP/device_htc_msm8960-common" remote="github" revision="vaosp" />
   <project path="kernel/htc/m7" name="ValidusAOSP/android_kernel_htc_m7" remote="github" revision="vaosp" />
