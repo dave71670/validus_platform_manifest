@@ -561,7 +561,7 @@
   <project name="SlimRoms/kernel_asus_flo" path="kernel/asus/flo" remote="github" revision="kk4.4" />
   <project name="ValidusAOSP/android_device_asus_flo" path="device/asus/flo" remote="github" revision="vaosp" />
   
-  <!-- Performance Control 
-  <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" /> -->
+  <!-- Performance Control -->
+  <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" /> 
 
 </manifest>
