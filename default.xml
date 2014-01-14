@@ -509,7 +509,7 @@
   <project name="ValidusAOSP/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="vaosp" />
   <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
-  <project name="AOKP/device_samsung_d2-common" path="device/samsung/d2-common" remote="github" revision="kitkat" />
+  <project name="ValidusAOSP/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="github" revision="vaosp" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_samsung_d2" path="kernel/samsung/d2" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
