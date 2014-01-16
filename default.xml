@@ -565,4 +565,7 @@
   <!-- Performance Control -->
   <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" /> 
 
+  <!-- Linaro -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-hammer" remote="ose" revision="ose" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="sabermod_rom_toolchain" remote="ose" revision="4.9.0" />  
 </manifest>
