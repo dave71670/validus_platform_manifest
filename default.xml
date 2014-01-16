@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
            
   <remote name="ls"
-           fetch="git://github.com/LiquidSmooth"
+           fetch="git://github.com/LiquidSmooth" />
            
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
@@ -24,7 +24,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="ValidusAOSP/android_build" remote="github" revision="vaosp" >
+  <project path="build" name="ValidusAOSP/android_build" remote="github" revision="vaosp-linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
