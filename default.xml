@@ -3,11 +3,10 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-           
-  <remote name="aokp"
-           fetch="https://github.com/"
-           review="gerrit.aokp.co" />
-           
+   
+  <remote name="ls"
+           fetch="https://github.com/LiquidSmooth/" />
+
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
@@ -25,7 +24,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="ValidusAOSP/android_build" remote="github" revision="vaosp" >
+  <project path="build" name="ValidusAOSP/android_build" remote="github" revision="vaosp-sabermod" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -248,7 +247,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="kk4.4" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="kk4.4-caf" />
-  <project path="frameworks/base" name="ValidusAOSP/frameworks_base" remote="github" revision="vaosp" />
+  <project path="frameworks/base" name="ValidusAOSP/frameworks_base" remote="github" revision="vaosp-sabermod" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="kk4.4" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -442,7 +441,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="vaosp" />
+  <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="vaosp-sabermod" />
 
   <!-- New Additions for slim -->
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="vaosp" />
@@ -563,5 +562,11 @@
   
   <!-- Performance Control -->
   <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" /> 
+
+  <!-- Sabermod && Linaro 4.8 -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-hammer" remote="ls" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="sabermod_rom_toolchain" remote="ls" revision="4.9.0" />
 
 </manifest>
