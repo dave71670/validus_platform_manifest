@@ -530,7 +530,7 @@
   <project name="ValidusAOSP/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="vaosp" />
 
   <!-- M7 -->
-  <project path="device/htc/m7-common" name="AOKP/device_htc_m7-common" remote="github" revision="kitkat" />
+  <project path="device/htc/m7-common" name="CyanogenMod/android_device_htc_m7-common" remote="github" revision="cm-11.0" />
   <project path="device/htc/m7att" name="ValidusAOSP/device_htc_m7att" remote="github" revision="vaosp" />
   <project path="device/htc/m7spr" name="ValidusAOSP/device_htc_m7spr" remote="github" revision="vaosp" />
   <project path="device/htc/m7tmo" name="ValidusAOSP/device_htc_m7tmo" remote="github" revision="vaosp" />
