@@ -444,7 +444,7 @@
   <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="vaosp-sabermod" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="vaosp" />
+  <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="vaosp-sabermod" />
 
   <!-- Slim OTA -->
   <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
