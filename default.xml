@@ -494,7 +494,7 @@
   
   <!-- Sammy Files -->
   <project name="ValidusAOSP/android_device_samsung_jfltevzw" path="device/samsung/jfltevzw" remote="github" revision="vaosp" />
-  <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-11.0" />
+  <project name="ValidusAOSP/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="vaosp" />
   <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-11.0" />
   <project name="ValidusAOSP/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="vaosp" />
