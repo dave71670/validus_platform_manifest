@@ -492,9 +492,9 @@
   <project name="CyanogenMod/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-11.0" />
   <project path="device/motorola/msm8960-common" name="SlimRoms/device_motorola_msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/motorola/qcom-common" name="ValidusAOSP/android_device_motorola_qcom-common" remote="github" revision="vaosp" />
-  <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="kk4.4" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/hardware_qcom_media-caf" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/hardware_qcom_display-caf" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/hardware_qcom_audio-caf" remote="github" revision="cm-11.0" />
   <project name="ValidusAOSP/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_motorola_xt925" path="device/motorola/xt925" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="vaosp" />
