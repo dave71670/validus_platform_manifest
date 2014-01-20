@@ -558,7 +558,7 @@
   <project name="ValidusAOSP/android_device_asus_flo" path="device/asus/flo" remote="github" revision="vaosp" />
   
   <!-- Performance Control -->
-  <project path="packages/apps/PerformanceControl" name="ValidusAOSP/android_packages_apps_PerformanceControl" remote="github" revision="vaosp" /> 
+  <project path="packages/apps/PerformanceControl" name="LiquidSmooth/android_packages_apps_PerformanceControl" remote="github" revision="kitkat" /> 
 
   <!-- Sabermod && Linaro 4.8 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
