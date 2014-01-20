@@ -517,6 +517,7 @@
   <project name="ValidusAOSP/android_device_samsung_hltetmo" path="device/samsung/hltetmo" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="github" revision="vaosp" />
   <project name="CyanogenMod/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
+  <project name="ValidusAOSP/android_device_samsung_i605" path="device/samsung/i605" remote="github" revision="vaosp" />
   
   <!-- LGE -->
   <project name="SlimRoms/proprietary_vendor_qcom" path="vendor/qcom" remote="github" revision="kk4.4" />
