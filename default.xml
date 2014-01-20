@@ -3,9 +3,6 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-   
-  <remote name="ls"
-           fetch="https://github.com/LiquidSmooth/" />
 
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
@@ -566,7 +563,7 @@
   <!-- Sabermod && Linaro 4.8 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="linaro-hammer" remote="ls" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="sabermod_rom_toolchain" remote="ls" revision="4.9.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="ValidusAOSP/LINARO-HAMMER" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="ValidusAOSP/SaberMod_ROM_Toolchain" remote="github" revision="4.9.0" />
 
 </manifest>
