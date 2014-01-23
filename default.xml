@@ -521,7 +521,7 @@
   
   <!-- LGE -->
   <project name="SlimRoms/proprietary_vendor_qcom" path="vendor/qcom" remote="github" revision="kk4.4" />
-  <project name="CyanogenMod/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-11.0" />
+  <project name="ValidusAOSP/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="vaosp" />
   <project name="ValidusAOSP/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="vaosp" />
 
   <!-- M7 -->
@@ -562,7 +562,7 @@
   <!-- Sabermod && Linaro 4.8 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="ValidusAOSP/LINARO-HAMMER" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="ValidusAOSP/linaro-hammer" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="ValidusAOSP/SaberMod_ROM_Toolchain" remote="github" revision="4.9.0" />
 
 </manifest>
