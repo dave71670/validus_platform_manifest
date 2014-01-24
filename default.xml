@@ -521,7 +521,7 @@
   
   <!-- LGE -->
   <project name="SlimRoms/proprietary_vendor_qcom" path="vendor/qcom" remote="github" revision="kk4.4" />
-  <project name="ValidusAOSP/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="vaosp" />
+  <project name="ValidusAOSP/hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-kk-r1" />
   <project name="ValidusAOSP/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="vaosp" />
 
   <!-- M7 -->
