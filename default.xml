@@ -531,7 +531,7 @@
   <project path="device/htc/m7tmo" name="ValidusAOSP/device_htc_m7tmo" remote="github" revision="vaosp" />
   <project path="device/htc/m7" name="ValidusAOSP/android_device_htc_m7" remote="github" revision="vaosp" />
   <project path="device/htc/m7vzw" name="ValidusAOSP/android_device_htc_m7vzw" remote="github" revision="vaosp" />
-  <project path="device/htc/msm8960-common" name="ValidusAOSP/device_htc_msm8960-common" remote="github" revision="vaosp" />
+  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-11.0" />
  
   <!-- LG G2 & Variants -->
