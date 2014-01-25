@@ -485,7 +485,7 @@
   <project path="packages/wallpapers/SwagPapers" name="ValidusAOSP/packages_wallpapers_SwagPapers_v2" remote="github" revision="vaosp" />
   
   <!-- Moto Files -->
-  <project name="ValidusAOSP/kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="vaosp" />
+  <project name="SlimRoms/kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/motorola/msm8960-common" name="SlimRoms/device_motorola_msm8960-common" remote="github" revision="kk4.4" />
   <project path="device/motorola/qcom-common" name="ValidusAOSP/android_device_motorola_qcom-common" remote="github" revision="vaosp" />
   <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
