@@ -21,7 +21,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="ValidusAOSP/android_build" remote="github" revision="vaosp-sabermod" >
+  <project path="build" name="ValidusAOSP/build" remote="github" revision="vaosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -498,4 +498,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="ValidusAOSP/linaro-hammer" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="ValidusAOSP/SaberMod_ROM_Toolchain" remote="github" revision="4.9.0" />
 
+  <!-- OmniSwitch -->
+  <project path="packages/apps/OmniSwitch" name="ValidusAOSP/packages_apps_OmniSwitch" remote="github" revision="vaosp" />
 </manifest>
