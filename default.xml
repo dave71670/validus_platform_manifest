@@ -484,54 +484,10 @@
   <!-- GZWalls -->
   <project path="packages/wallpapers/SwagPapers" name="ValidusAOSP/packages_wallpapers_SwagPapers_v2" remote="github" revision="vaosp" />
   
-  <!-- Moto Files -->
-  <project name="SlimRoms/kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="kk4.4" />
-  <project path="device/motorola/msm8960-common" name="SlimRoms/device_motorola_msm8960-common" remote="github" revision="kk4.4" />
-  <project path="device/motorola/qcom-common" name="ValidusAOSP/android_device_motorola_qcom-common" remote="github" revision="vaosp" />
+  <!-- Code Aurora Forums Crap -->
   <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="kk4.4" />
-  <project name="ValidusAOSP/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="vaosp" />
-  <project name="ValidusAOSP/android_device_motorola_xt925" path="device/motorola/xt925" remote="github" revision="vaosp" />
-  <project name="ValidusAOSP/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="vaosp" />
-  <project name="ValidusAOSP/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="vaosp" />
-  
-  <!-- LGE -->
-  <project name="SlimRoms/proprietary_vendor_qcom" path="vendor/qcom" remote="github" revision="kk4.4" />
-  <project name="ValidusAOSP/hammerhead" path="kernel/lge/hammerhead" remote="github" revision="android-msm-hammerhead-3.4-kk-r1" />
-  <project name="ValidusAOSP/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="vaosp" />
-
-  <!-- M7 -->
-  <project path="device/htc/m7-common" name="ValidusAOSP/android_device_htc_m7-common" remote="github" revision="vaosp" />
-  <project path="device/htc/m7att" name="ValidusAOSP/device_htc_m7att" remote="github" revision="vaosp" />
-  <project path="device/htc/m7spr" name="ValidusAOSP/device_htc_m7spr" remote="github" revision="vaosp" />
-  <project path="device/htc/m7tmo" name="ValidusAOSP/device_htc_m7tmo" remote="github" revision="vaosp" />
-  <project path="device/htc/m7" name="ValidusAOSP/android_device_htc_m7" remote="github" revision="vaosp" />
-  <project path="device/htc/m7vzw" name="ValidusAOSP/android_device_htc_m7vzw" remote="github" revision="vaosp" />
-  <project path="device/htc/msm8960-common" name="SlimRoms/device_htc_msm8960-common" remote="github" revision="kk4.4" />
-  <project path="kernel/htc/m7" name="SlimRoms/kernel_htc_m7" remote="github" revision="kk4.4" />
- 
-  <!-- LG G2 & Variants -->
-  <project name="ValidusAOSP/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="vaosp" />
-  <project name="Ayysir/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="kitkat" />
-  <project name="ValidusAOSP/android_device_lge_vs980" path="device/lge/vs980" remote="github" revision="vaosp" />
-  <project name="ValidusAOSP/android_device_lge_d800" path="device/lge/d800" remote="github" revision="vaosp" />
-  <project name="ValidusAOSP/android_device_lge_d801" path="device/lge/d801" remote="github" revision="vaosp" />
-  <project name="ValidusAOSP/android_device_lge_d802" path="device/lge/d802" remote="github" revision="vaosp" />
-  
-  <!-- Toro -->
-  <project name="SlimRoms/proprietary_vendor_imgtec" path="vendor/imgtec" remote="github" revision="kk4.4" />
-  <project name="SlimRoms/proprietary_vendor_invensense" path="vendor/invensense" remote="github" revision="kk4.4" />
-  <project name="SlimRoms/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="kk4.4" />
-  <project name="SlimRoms/proprietary_vendor_nxp" path="vendor/nxp" remote="github" revision="kk4.4" />
-  <project name="SlimRoms/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="kk4.4" />
-  <project name="ValidusAOSP/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="vaosp" />
-  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" revision="cm-11.0" />
-  <project name="ValidusAOSP/device_samsung_toro" path="device/samsung/toro" remote="github" revision="vaosp" />
-  
-  <!-- Flo -->
-  <project name="SlimRoms/kernel_asus_flo" path="kernel/asus/flo" remote="github" revision="kk4.4" />
-  <project name="ValidusAOSP/android_device_asus_flo" path="device/asus/flo" remote="github" revision="vaosp" />
   
   <!-- Performance Control -->
   <project path="packages/apps/PerformanceControl" name="LiquidSmooth/android_packages_apps_PerformanceControl" remote="github" revision="kitkat" /> 
