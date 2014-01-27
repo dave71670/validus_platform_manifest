@@ -1,6 +1,5 @@
-Welcome to ValidusAOSP/SaberMod
-===============================
-Not all devices are tested 
+Welcome to ValidusAOSP
+========================
 
 repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b vaosp-sabermod && repo sync -j**
 
