@@ -489,4 +489,12 @@
 
   <!-- OmniSwitch -->
   <project path="packages/apps/OmniSwitch" name="ValidusAOSP/packages_apps_OmniSwitch" remote="github" revision="vaosp" />
+
+  <!-- SaberMod 4.9 -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="ValidusAOSP/sabermod_rom_toolchain" remote="github" revision="4.9.0" />
+  
+  <!-- 4.8 Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
+  
 </manifest>
