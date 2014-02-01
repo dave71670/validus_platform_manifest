@@ -24,7 +24,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="ValidusAOSP/android_build" remote="github" revision="vaosp" >
+  <project path="build" name="Somber73/android_build" remote="github" revision="gzr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
