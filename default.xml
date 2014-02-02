@@ -447,10 +447,10 @@
   <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="gzroms" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="vaosp-sabermod" />
+  <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="gzroms" />
 
   <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" />
+  <!-- <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" /> -->
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="ValidusAOSP/packages_apps_SlimFileManager" remote="github" revision="gzr" />
