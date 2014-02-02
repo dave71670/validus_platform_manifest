@@ -1,5 +1,5 @@
-                                             Ground Zero Roms Presents
-                                             ==========================
+                                             Ground Zero Roms Present
+===========================================================================================================================
 
 repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b vaosp-sabermod && repo sync -j**
 
