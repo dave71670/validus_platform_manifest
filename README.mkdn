@@ -1,8 +1,8 @@
 Ground Zero Roms Presents: Validus 2014
 ===========================================================================================================================
 
-repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b vaosp-sabermod && repo sync -j**
-
+repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b gzroms && repo sync -j**
+-------------------------------------------------------------------------------------------
 Build it
 ========
 
@@ -12,7 +12,7 @@ Build it
 -----------------------
 3.) choose your device
 -----------------------
-4.) make validus -j**
+4.) mka validus -j**
 -----------------------
 
 NOTE: ** = your values 
