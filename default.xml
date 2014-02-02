@@ -24,7 +24,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Somber73/android_build" remote="github" revision="gzr" >
+  <project path="build" name="ValidusAOSP/android_build" remote="github" revision="gzroms" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -444,7 +444,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="vaosp-sabermod" />
+  <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="gzroms" />
 
   <!-- New Additions for slim -->
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="vaosp-sabermod" />
