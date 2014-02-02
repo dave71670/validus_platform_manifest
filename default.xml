@@ -491,12 +491,17 @@
   <project path="packages/apps/OmniSwitch" name="ValidusAOSP/packages_apps_OmniSwitch" remote="github" revision="vaosp" />
 
   <!-- SaberMod 4.9 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="ValidusAOSP/sabermod_rom_toolchain" remote="github" revision="4.9.0" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="LiquidSmooth/sabermod_rom_toolchain" remote="github" revision="4.9.0" />
   
   <!-- 4.8 Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
   
   <!-- Linaro 4.8.3 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="ValidusAOSP/linaro-hammer" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="LiquidSmooth/linaro-hammer" remote="github" revision="master" />
+  
+  <!-- More Linaro -->
+  <project path="prebuilts/gcc/linux-x86/arm/LK" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="github" revision="master" />
+  
 </manifest>
