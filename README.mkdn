@@ -2,18 +2,17 @@ Ground Zero Roms Presents: Validus 2014
 ===========================================================================================================================
 
 repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b gzroms && repo sync -j**
--------------------------------------------------------------------------------------------
-Build it
-========
+
+Build it..
 
 1.) . build/envsetup.sh
------------------------
+
 2.) lunch
------------------------
+
 3.) choose your device
------------------------
+
 4.) mka validus -j**
------------------------
+
 
 NOTE: ** = your values 
 
