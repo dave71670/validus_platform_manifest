@@ -503,5 +503,7 @@
   <!-- More Linaro -->
   <project path="prebuilts/gcc/linux-x86/arm/LK" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="github" revision="master" />
-  
+
+  <!-- Screen Recorder -->
+  <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 </manifest>
