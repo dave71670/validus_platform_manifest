@@ -293,7 +293,7 @@
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="kk4.4" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="kk4.4" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="kk4.4" />
@@ -462,8 +462,8 @@
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
 
-  <!--CyanogenMod Power Hal -->
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-11.0" />
+  <!--Power Hal -->
+  <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
 
   <!-- ThemeChooser 
   <project path="vendor/tmobile/apps/ThemeChooser" name="vendor-tmobile-apps-ThemeChooser" remote="du" revision="du44" />
@@ -504,6 +504,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/LK" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="github" revision="master" />
 
-  <!-- Screen Recorder -->
-  <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
+  <!-- CyanogenMod qrngd -->
+  <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
+ 
+ 
 </manifest>
