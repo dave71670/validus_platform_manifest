@@ -500,12 +500,14 @@
   <!-- Linaro 4.8.3 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="LiquidSmooth/linaro-hammer" remote="github" revision="master" />
   
-  <!-- More Linaro -->
+  <!-- More Linaro 
   <project path="prebuilts/gcc/linux-x86/arm/LK" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="github" revision="master" /> -->
 
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
- 
- 
+  
+  <!-- Slim toolchain gcc and linaro -->
+  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
+
 </manifest>
