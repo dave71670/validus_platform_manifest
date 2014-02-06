@@ -449,9 +449,6 @@
   <!-- New Additions for slim -->
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="gzroms" />
 
-  <!-- Slim OTA -->
-  <!-- <project path="packages/apps/SlimCenter" name="SlimRoms/packages_apps_SlimCenter" remote="github" revision="kk4.4" /> -->
-
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="ValidusAOSP/packages_apps_SlimFileManager" remote="github" revision="gzr" />
 
@@ -465,11 +462,6 @@
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="kk4.4" />
 
-  <!-- ThemeChooser 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="vendor-tmobile-apps-ThemeChooser" remote="du" revision="du44" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="du" revision="du44" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="du" revision="du44" /> -->
-  
   <!-- Stats -->
   <project path="packages/apps/DU-Stats" name="ValidusAOSP/packages_apps_DU-Stats" remote="github" revision="vaosp"/>
   
@@ -478,11 +470,6 @@
 
   <!-- GZWalls -->
   <project path="packages/wallpapers/SwagPapers" name="ValidusAOSP/packages_wallpapers_SwagPapers_v2" remote="github" revision="vaosp" />
-  
-  <!-- Code Aurora Forums Crap 
-  <project path="hardware/qcom/media-caf" name="SlimRoms/hardware_qcom_media-caf" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_display-caf" remote="github" revision="kk4.4" />
-  <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="kk4.4" /> -->
   
   <!-- Performance Control -->
   <project path="packages/apps/PerformanceControl" name="LiquidSmooth/android_packages_apps_PerformanceControl" remote="github" revision="kitkat" /> 
@@ -497,17 +484,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
   
-  <!-- Linaro 4.8.3 -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="LiquidSmooth/linaro-hammer" remote="github" revision="master" />
-  
-  <!-- More Linaro 
-  <project path="prebuilts/gcc/linux-x86/arm/LK" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="github" revision="master" /> -->
-
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
   
-  <!-- Slim toolchain gcc and linaro -->
-  <project path="prebuilt" name="SlimRoms/android_prebuilt" remote="github" revision="kk4.4" />
-
 </manifest>
