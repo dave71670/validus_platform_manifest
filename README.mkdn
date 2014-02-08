@@ -11,7 +11,7 @@ Build it..
 
 3.) choose your device
 
-4.) mka validus -j**
+4.) mka bacon -j**
 
 
 NOTE: ** = your values 
