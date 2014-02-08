@@ -7,6 +7,9 @@
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
   
+  <remote name="sm"
+           fetch="git://github.com/SaberMod/" />
+  
   <remote name="du"
            fetch="https://github.com/DirtyUnicorns-KitKat/" />
 
