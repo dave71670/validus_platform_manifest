@@ -7,9 +7,13 @@
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
            
-  <remote name="sm"
-           fetch="https://github.com/SaberMod" />           
-  
+  <remote  name="ChameleonOS"
+           fetch="https://github.com/ChameleonOS"
+           review="review.chameleonos.org" />
+           
+  <remote name="gh"
+           fetch="git://github.com/" />         
+
   <remote name="du"
            fetch="https://github.com/DirtyUnicorns-KitKat/" />
 
@@ -479,7 +483,6 @@
 
   <!-- SaberMod 4.9 -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM" name="LiquidSmooth/sabermod_rom_toolchain" remote="github" revision="4.9.0" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" remote="sm" revision="master" />
   
   <!-- 4.8 Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
@@ -488,4 +491,7 @@
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
 
+  <!-- ChameleonOS -->
+  <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
+  
 </manifest>
