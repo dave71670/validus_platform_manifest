@@ -486,5 +486,10 @@
   
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
-
+  
+  <!-- Weekly Script -->
+  <project path="weekly" name="ValidusAOSP/GZRoms" remote="github" revision="gzroms" >
+    <copyfile src="nightly.sh" dest="nightly.sh" />
+    <copyfile src="weekly.sh" dest="weekly.sh" />
+  </project>
 </manifest>
