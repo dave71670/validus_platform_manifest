@@ -496,5 +496,5 @@
   </project>
   
   <!-- f2fs -->
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" />
+  <!-- <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" /> -->
 </manifest>
