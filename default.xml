@@ -31,8 +31,8 @@
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="github" revision="cm-11.0"/>
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0"/>
+  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="kk4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
   <project path="developers/build" name="platform/developers/build" />
