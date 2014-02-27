@@ -432,7 +432,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="ValidusAOSP/system_core" remote="github" revision="vaosp" />
-  <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="kk4.4" />
+  <project path="system/extras" name="omnirom/android_system_extras" remote="github" revision="android-4.4" />
   <project path="system/media" name="ValidusAOSP/system_media" remote="github" revision="vaosp" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
