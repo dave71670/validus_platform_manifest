@@ -15,6 +15,10 @@
 
   <remote name="tm"
            fetch="git://github.com/TheMuppets/" />
+           
+  <remote name="slim"
+           fetch="git://github.com/SlimRoms/"
+           review="https://gerrit.slimroms.net/"/>         
   
   <remote  name="github"
            fetch="git://github.com/"
@@ -29,10 +33,10 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="kk4.4"  />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="kk4.4" />
+  <project path="bionic" name="ValidusAOSP/bionic" remote="github" revision="vaosp" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="omnirom/android_bootable_recovery" remote="github" revision="android-4.4" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="kk4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="kk4.4" />
   <project path="developers/build" name="platform/developers/build" />
@@ -432,7 +436,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="ValidusAOSP/system_core" remote="github" revision="vaosp" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-11.0" />
+  <project path="system/extras" name="ValidusAOSP/system_extras" remote="github" revision="vaosp" />
   <project path="system/media" name="ValidusAOSP/system_media" remote="github" revision="vaosp" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
