@@ -497,11 +497,5 @@
   
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
-  
-  <!-- Weekly Script -->
-  <project path="scripts" name="ValidusAOSP/GZRoms" remote="github" revision="gzroms" >
-    <copyfile src="weekly.sh" dest="weekly.sh" />
-    
-  <!-- f2fs -->
-  <!-- <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" /> -->
+
 </manifest>
