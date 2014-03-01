@@ -501,7 +501,7 @@
   <project path="scripts" name="ValidusAOSP/GZRoms" remote="github" revision="gzroms" >
     <copyfile src="weekly.sh" dest="weekly.sh" />
     
-  <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="ls" revision="kitkat" />  
+  <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />  
   </project>
   
   <!-- f2fs -->
