@@ -457,6 +457,7 @@
 
   <!-- New Additions for slim -->
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="gzroms" />
+  <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 
   <!-- Slim file manager -->
   <project path="packages/apps/SlimFileManager" name="ValidusAOSP/packages_apps_SlimFileManager" remote="github" revision="gzr" />
@@ -501,8 +502,6 @@
   <project path="scripts" name="ValidusAOSP/GZRoms" remote="github" revision="gzroms" >
     <copyfile src="weekly.sh" dest="weekly.sh" />
     
-  <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />  
-  
   <!-- f2fs -->
   <!-- <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" /> -->
 </manifest>
