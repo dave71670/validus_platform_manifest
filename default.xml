@@ -502,7 +502,6 @@
     <copyfile src="weekly.sh" dest="weekly.sh" />
     
   <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />  
-  </project>
   
   <!-- f2fs -->
   <!-- <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-11.0" /> -->
