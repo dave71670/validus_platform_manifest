@@ -1,7 +1,7 @@
 Ground Zero Roms Presents: Validus 2014
 ===========================================================================================================================
 
-repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b gzroms && repo sync -j**
+repo init -u git://github.com/ValidusAOSP/platform_manifest.git -b gzroms-linaro && repo sync -j**
 
 Build it..
 
