@@ -28,7 +28,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Somber73/android_build-1" remote="github" revision="gzroms" >
+  <project path="build" name="Somber73/android_build-1" remote="github" revision="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -494,6 +494,9 @@
   <!-- 4.8 Toolchains -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-LK" name="LiquidSmooth/linaro-hammer" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LK" name="Cl3Kener/LINARO-KERNEL" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/LINARO" name="Cl3Kener/LINARO" remote="github" revision="master" />
   
   <!-- CyanogenMod qrngd -->
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
