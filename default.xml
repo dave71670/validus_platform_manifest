@@ -502,5 +502,5 @@
   <project path="packages/apps/KernelTweaker" name="ValidusAOSP/KernelTweaker" remote="github" revision="vaosp" />
   
   <!--OTA -->
-  <project path="packages/apps/GummyUpdater" name="ValidusAOSP/android_packages_apps_GummyUpdater" remote="github" revision="kk4.4" />
+  <project path="packages/apps/GummyUpdater" name="ValidusAOSP/android_packages_apps_ValidusUpdater" remote="github" revision="kk4.4" />
 </manifest>
