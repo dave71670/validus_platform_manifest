@@ -26,7 +26,7 @@
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="Somber73/android_build-1" remote="github" revision="linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
