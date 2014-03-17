@@ -3,6 +3,9 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+           
+  <remote name="dave"
+           fetch="git://github.com/dave71670/" />
 
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
@@ -56,6 +59,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
+  <project path="device/lge/e980" name="dave71670/android_device_e980" remote="dave" revision="cm-11.0"
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="kk4.4" />
@@ -456,6 +460,7 @@
   <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="gzroms" />
 
   <!-- New Additions for slim -->
+  <project path="vendor/lge" name="SlimRoms/proprietary_vendor_lge" remote="slim" revision="kk4.4"
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="gzroms" />
   <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 
