@@ -29,7 +29,7 @@
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="ValidusAOSP/android_build" remote="github" revision="gzroms" >
     <copyfile src="core/root.mk" dest="Makefile" />
