@@ -59,7 +59,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0"/>
-  <project path="device/lge/e980" name="dave71670/android_device_e980" remote="dave" revision="cm-11.0"
+  <project path="device/lge/e980" name="dave71670/android_device_e980" remote="dave" revision="cm-11.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="SlimRoms/android_external_aac" remote="github" revision="kk4.4" />
