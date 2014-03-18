@@ -21,7 +21,10 @@
            
   <remote name="slim"
            fetch="git://github.com/SlimRoms/"
-           review="https://gerrit.slimroms.net/"/>         
+           review="https://gerrit.slimroms.net/"/>
+           
+  <remote  name="TheMuppets"
+           fetch="https://github.com/" />       
   
   <remote  name="github"
            fetch="git://github.com/"
@@ -460,7 +463,7 @@
   <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="gzroms" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/lge" name="CyanogenMod/proprietary_vendor_lge" remote="cm" revision="cm-11.0" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="TheMuppets" revision="cm-11.0" />
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="gzroms" />
   <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 
