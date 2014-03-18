@@ -461,7 +461,7 @@
   <project path="platform_manifest" name="ValidusAOSP/platform_manifest" remote="github" revision="gzroms" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="tm" revision="cm-11.0" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-11.0" />
   <project path="vendor/gzr" name="ValidusAOSP/vendor_gzr" remote="github" revision="gzroms" />
   <project path="packages/apps/ScreenRecorder" name="LiquidSmooth/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
 
